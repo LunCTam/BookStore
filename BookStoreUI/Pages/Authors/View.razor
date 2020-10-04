@@ -1,0 +1,9 @@
+﻿@page "/authors/view/{Id}"
+<h3>View</h3>
+
+Author Id: @Id
+@code {
+    [Parameter]
+    public string Id { get; set; }
+
+}
