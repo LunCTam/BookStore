@@ -5,6 +5,7 @@
 @inject NavigationManager  _navManager
 
 <h3 class="card-title">Edit Single Author</h3>
+<br />
 
 @if (isFailed)
 {
@@ -12,7 +13,7 @@
 }
 @if (Model == null)
 {
-    <LoadMessage Message="Please wait..."></LoadMessage>
+    <LoadMessage Message="Please wait..." />
 }
 else
 {
